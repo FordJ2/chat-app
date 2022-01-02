@@ -120,14 +120,12 @@ def help():
 cls()
 init()
 
+# todo:
 # preference file
 # send images
 
-# server's IP address
-# if the server is not on this machine, 
-# put the private (network) IP address (192.168.1.2)
-SERVER_HOST = "127.0.0.1"
-SERVER_PORT = 5002 # server's port
+SERVER_HOST = "127.0.0.1" # 192.168.0.# if server is not on local machine
+SERVER_PORT = 5002        # server's port
 separator_token = ": "
 
 s = socket.socket()
