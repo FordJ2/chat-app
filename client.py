@@ -124,8 +124,8 @@ init()
 # preference file
 # send images
 
-SERVER_HOST = "127.0.0.1" # 192.168.0.# if server is not on local machine
-SERVER_PORT = 5002        # server's port
+SERVER_HOST = "127.0.0.1" # 192.168.0.## if server is not on local machine but on local network
+SERVER_PORT = 5002        # server port
 separator_token = ": "
 
 s = socket.socket()
